@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--
+     css prefixes
+            some things were not supported in older versions of css 
+            in multiole websites, solution is adding the file required
+            for it to work "prefix"
+    -->
+
+    <!-- <div class="items"></div> -->
+
+
+    <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="images/logo-light.png" class="w-50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-transparent d-flex justify-content-center align-items-center ">
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-2" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-2" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-2" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-2" href="#">Our Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-2" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-2" href="#">
+                <button class="blue-btn-custom btn-custom">Contact</button>
+                </a>
+            </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <header>
+        <div class="container vh-100 d-flex justify-content-center align-items-center">
+            <div class="header-content text-center">
+                <h1>Creative Agency</h1>
+                <p>Welcom to the home of world's brightest ideas</p>
+                <div class="header-button">
+                    <button class="btn btn-light btn-custom rounded-pill">ABOUT US</button>
+                    <button class="btn-primary btn-custom rounded-pill">PORTIFOLIO</button>
+                </div>
+            </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="about">
+          <div class="container">
+            <div class="row my-4">
+              <div class="col-md-3 col-lg-4">
+                <div>
+                  <div class="card border-0 d-flex p-4 flex-row align-items-start">
+                    <div class="">
+                      <i class="fa-solid fa-sliders fa-rotate-90 w-25 icon-custom me-2"></i>
+                    </div>
+                    <div class="first-section-content pe-4">
+                        <h5>Powerful Options</h5>
+                        <p>Take a full control over all aspects of your 
+                          theme with our truly extensive Options Panel.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-lg-4">
+                <div>
+                  <div class="card border-0 d-flex p-4 flex-row align-items-start">
+                    <div class="">
+                      <i class="fa-solid fa-tv w-25 icon-custom me-3 mt-2"></i>
+                    </div>
+                    <div class="first-section-content pe-4">
+                        <h5>Responsive Design</h5>
+                        <p>Engage is a fully responsive and retina ready
+                           theme that scales well to all mobile devices.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-lg-4">
+                <div>
+                  <div class="card border-0 d-flex p-4 flex-row align-items-start">
+                    <div class="">
+                      <i class="fa-solid fa-pencil w-25 icon-custom me-3 mt-2"></i>
+                    </div>
+                    <div class="first-section-content pe-4">
+                        <h5>Satisfied Clients</h5>
+                        <p>Build any layout you can think of with the 
+                          most powerful page builder Visual Composer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="our-work">
+          <div class="container pt-5 pd-5">
+            <div class="first text-center">
+              <div class="second-section-content w-75 mt-($spacer) mx-auto">
+                <h2>Our Work</h2>
+                <p>Morbi pellentesque, nisl id semper bibendum, nibh sem
+                   fermentum magna, eget commodo leo velit sit amet velit.
+                    Aliquam fermentum, lorem.</p>
+              </div>
+              <div id="carouselExample" class="carousel slide pb-5">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active ">
+                    <div class="second-section-images">
+                      <div class="container text-center">
+                        <div class="row">
+                          <div class="col">
+                            <img src="images/Paper-Pouch-Packaging-MockUp-600x600.jpg" alt="">
+                          </div>
+                          <div class="col">
+                            <img src="images/tags-600x600.jpg" alt="">
+                          </div>
+                          <div class="col">
+                            <img src="images/Preview-1-600x600.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> -->
+              </div>
+              <button class="btn-custom">view all</button>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="quote"> 
+          <div class="container pt-5 text-center">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="carousel-caption d-md-block">
+                      <div class="icon">
+                        <span><i class="fa-regular fa-comment"></i></span>
+                      </div>
+                      <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, minima!
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, minima!"</p>
+                      <h3>Steve Moris</h3>
+                      <h4>FashionTop</h4>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="carousel-caption d-md-block">
+                      <div class="icon">
+                        <span><i class="fa-regular fa-comment"></i></span>
+                      </div>
+                      <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, minima!
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, minima!"</p>
+                      <h3>Steve Moris</h3>
+                      <h4>FashionTop</h4>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-caption d-md-block">
+                      <div class="icon">
+                        <span><i class="fa-regular fa-comment"></i></span>
+                      </div>
+                      <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, minima!
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, minima!"</p>
+                      <h3>Steve Moris</h3>
+                      <h4>FashionTop</h4>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section id="latestsection">
+          <div class="container">
+            <div class="title text-center pt-5">
+              <h2>Latest News</h2>
+            </div>
+            <div class="row my-4 mt-5 pt-5">
+              <div class="col-md-3 col-lg-4">
+                <div>
+                  <div class="card border-0 d-flex p-4 flex-row align-items-start">
+                    <div class="">
+                    </div>
+                    <div class="first-section-content pe-4">
+                        <h5>Simple Post</h5>
+                        <p>Take a full control over all aspects of your 
+                          theme with our truly extensive Options Panel.</p>
+                          <a href="#" class="card-link">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-lg-4">
+                <div>
+                  <div class="card border-0 d-flex p-4 flex-row align-items-start">
+                    <div class="">
+                    </div>
+                    <div class="first-section-content pe-4">
+                        <h5>Laptop Bag</h5>
+                        <p>Engage is a fully responsive and retina ready
+                           theme that scales well to all mobile devices.</p>
+                           <a href="#" class="card-link">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-lg-4">
+                <div>
+                  <div class="card border-0 d-flex p-4 flex-row align-items-start">
+                    <div class="">
+                    </div>
+                    <div class="first-section-content pe-4">
+                        <h5>Gallery Post</h5>
+                        <p>Build any layout you can think of with the 
+                          most powerful page builder Visual Composer.</p>
+                          <a href="#" class="card-link">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
